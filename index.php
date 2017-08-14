@@ -24,7 +24,7 @@
       </fieldset>
       <span id="button">
           <input type="submit" value="Send" id="submit">
-          <input type="submit" value="Reset" id="clear">
+          <input type="reset" value="Reset" id="clear">
       </span>
   </form>
   <script src="js/app.js"></script>
