@@ -50,7 +50,7 @@ fieldset textarea{
 
 /*-------------------------------------------*/
 
-/*------------INPUT AND TEXTAREA-------------*/
+/*------------INPUT, TEXTAREA AND DROPDOWN-------------*/
 
 input[type="text"],
 input[type="email"],
@@ -66,6 +66,10 @@ fieldset textarea{
 #message{
     
     resize: vertical;
+}
+
+select{
+    background: #fff;
 }
 
 /*---------------------------------------------*/
