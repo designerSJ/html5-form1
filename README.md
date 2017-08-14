@@ -1,4 +1,4 @@
-# html5-form-rototype1
+# html5-form-prototype1
 
 This is custom designed HTML5 Form.
 
