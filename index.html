@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <form>
+  <form method="post" action="mailsuccess.php">
       <fieldset>
           <legend>Contact Us</legend>
           <input type="text" placeholder="Name" required id="name" name="name">
@@ -22,7 +22,10 @@
           </select>
           <textarea name="message" rows="5" id="message" required placeholder="Type Your Message"></textarea>
       </fieldset>
-      <input type="submit" value="Send" id="button" name="submit">
+      <span id="button">
+          <input type="submit" value="Send" id="submit">
+          <input type="submit" value="Reset" id="clear">
+      </span>
   </form>
   <script src="js/app.js"></script>
 </body>
