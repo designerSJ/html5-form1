@@ -35,6 +35,7 @@ fieldset legend{
     letter-spacing: 0.05em;
     font-size: .9em;
     text-transform: uppercase;
+    text-align: center;
 }
 
 fieldset input,
